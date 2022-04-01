@@ -5,35 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Navigation</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="app.css">
     </head>
     <body>
         <nav id="Navigation">
             <img src="/img/placeholder-logo.png">
             <ul class="Nav-item">
-                <li><a class="item" href ="#">Industries</a>
-                <ul style="display: none;">
-                    <li ><a class="dropDown" href ="#">Financial Service</a></li>
-                    <li ><a class="dropDown" href ="#">Healthcare</a></li>
-                    <li ><a class="dropDown" href ="#">Goverment</a></li>
-                </ul>
-            </li>
-
+                <li><a class="item" href ="#">Industries</a></li>
                 <li ><a class="item" href="#">Solution</a> </li>
                 <li ><a class="item" href="#">Enterprise Class Al</a></li>
                 <li ><a class="item" href="#">Knowledge Center</a></li>
                 <li ><a class="item" href="#">Company</a></li>
                 </ul>
             </ul>
+            <ul>
+                <li>                    
+                    <a  href ="#" ><i id="search" class="fa fa-search"></i></a>
+                </li>
+            </ul>
+            <button id="demo">Request A Demo</button>
+            
         </nav>
 
-        <div id="Industies">
+        <div id="Industies" style="display: none;">
             
                     <h2 class="dropDown"><a  href ="#" ><span>&#8594;</span> Financial Service</a></h2>
                     <hr>
                     <h2 class="dropDown"><a href ="#" ><span>&#8594;</span> Healthcare</a></h2>
                     <hr>
                     <h2 class="dropDown"><a href ="#" ><span>&#8594;</span> Goverment</a></h2>
+                    <hr style="width: 100%; color: #38E5C4; border: 1px thin; margin-top: 20px;">
                 
         </div>
     </body>

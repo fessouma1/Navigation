@@ -99,7 +99,26 @@ h2 a{
     color: #4279db ;
 }
 hr{
+    
     width: 80%;
     color: #38E5C4;
-    border: .5px solid;
+    border: 1px thin;
+}
+h2 a:hover{
+    color: #38E5C4;
+}
+li a i{
+    color: #FFFFFF;
+    padding: 33px 35px;
+    line-height: 50px;
+}
+#demo{
+    text-align: center;
+    font-family: futura;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    padding: 2px 25px;
+    margin: 15px 10px;
 }
