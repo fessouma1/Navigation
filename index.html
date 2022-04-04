@@ -9,40 +9,36 @@
         <link rel="stylesheet" href="app.css">
     </head>
     <body>
-        <nav id="Navigation">
+        <nav>
             <img src="/img/placeholder-logo.png">
-            <ul class="Nav-item">
-                <li><a id="indus" class="item" href ="#">Industries</a></li>
-                <li ><a class="item" href="#">Solution</a> </li>
-                <li ><a class="item" href="#">Enterprise Class Al</a></li>
-                <li ><a class="item" href="#">Knowledge Center</a></li>
-                <li ><a class="item" href="#">Company</a></li>
-                </ul>
-            </ul>
             <ul>
-                <li>                    
-                    <a  href ="#" ><i id="search" class="fa fa-search"></i></a>
+                <li><a class="mainNav" href ="#">Industries</a>
+                <ul>
+                    <li><a href="#"> <span style="visibility:hidden;">&#8594;</span> Financial Service</a></li>
+                    <li><a href="#"> <span style="visibility: hidden;">&#8594;</span> Healthcare</a></li>
+                    <li><a href="#"> <span style="visibility: hidden;">&#8594;</span> Goverment</a></li>
+                </ul>
                 </li>
-            </ul>
-            <button id="demo">Request A Demo</button>
-            
+                <li ><a class="mainNav" class="dropdown" href="#">Solution</a> </li>
+                <li ><a class="mainNav" class="dropdown" href="#">Enterprise Class Al</a></li>
+                <li ><a class="mainNav" class="dropdown" href="#">Knowledge Center</a></li>
+                <li ><a class="mainNav" class="dropdown" href="#">Company</a></li>
+                </ul>
+                
+                <div id="search">
+                    <a href ="#" ><i onclick="myFunction()" style="color: white;" class="fa fa-search"></i></a>
+                </div>
+
+                <button id="demo">Request A Demo</button>
         </nav>
 
-        <div id="Industies">
-            
-                    <h2 class="dropDown"><a id="service"  href ="#" ><span>&#8594;</span> Financial Service</a></h2>
-                    <hr>
-                    <h2 class="dropDown"><a href ="#" ><span>&#8594;</span> Healthcare</a></h2>
-                    <hr>
-                    <h2 class="dropDown"><a href ="#" ><span>&#8594;</span> Goverment</a></h2>
-                    <hr style="width: 100%; color: #38E5C4; border: 1px thin; margin-top: 20px;">
-                
-        </div>
-        <div id="searchbar">
+        <div id="searchbar" >
             <form class="example" action="">
                 <input type="text" placeholder="Search" name="search">
                 <button type="submit" id="xbutton">X</button>
               </form>
         </div>
+        
     </body>
+    <script type="text/javascript" src="script.js"></script>
 </html>
